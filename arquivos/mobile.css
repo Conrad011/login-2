@@ -5,7 +5,7 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media screen and (min-width:400px) and (max-width:768px){
+@media screen and (min-width:300px) and (max-width:768px){
     html, body{
         height: 100%;
         width: 100%;
