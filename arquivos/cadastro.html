@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="pc-cadastro.css">
+    <link rel="stylesheet" href="mob-cadastro.css">
+    <link rel="stylesheet" href="tab-cadastro.css">
+</head>
+<body>
+    <div>
+    <h1>cadastro</h1>
+    
+        <form action="" method="post">
+         <fieldset>
+            <legend>Dados pessoais</legend><br>
+            <label>
+                <strong>Nome:</strong>
+                <input type="text" placeholder="Nome" required class="large
+                ">
+            </label><br><br>
+            <label>
+                <strong>E-mail:</strong>
+                <input type="email" placeholder="E-mail" required class="large
+                ">
+            </label><br><br>
+            <label>
+                <strong>Senha:</strong>
+                <input type="password" placeholder="Senha" required minlength="4" maxlength="13" class="large
+                ">
+            </label><br><br>
+            <label for="sex">
+                <strong>Sexo:</strong>
+                <input type="radio" name="Sex" id="genM">Mascule
+            </label>
+            
+            <input type="radio" name="Sex" id="genF" >
+            <label for="Sex">Female</label><br><br>
+            <label >
+                <strong>Telefone:</strong>
+                <input type="tel" required placeholder="(xx) xxxxx-xxxx" class="large
+                ">
+            </label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend><br>
+            <address>
+                <label >
+                    <strong>Rua</strong>
+                    <input type="text" placeholder="Nome da rua" maxlength="50" required class="large"> 
+
+                </label><br><br>
+            </address>
+            <address>
+                <label >
+                    <strong>Número</strong>
+                    <input type="number" placeholder="Número da rua" min="1"  required class="large">
+                </label><br><br>
+                <strong>Estado</strong>
+                <select name="" id="">Estado
+                    <strong>Estado</strong>
+                    <option value="">MG</option>
+                    <option value="">ES</option>
+                    <option value="">RJ</option>
+                    <option value="">SP</option>
+                </select><br><br>
+                <label >
+                    <strong>Cidade</strong>
+                    <input type="text" placeholder="Cidade" required class="large">
+                </label><br><br>
+            </address>
+           
+        </fieldset>
+        <input type="submit" class="button">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    html, body{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background: url('../image/pexels-gabriela.jpg') no-repeat top center;  
+    }
+    .button{
+        display: block;
+        margin: auto;
+        font-weight: bolder;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .button:hover{
+        background-color: rgba(0, 0, 255, 0.563);
+        color: white;
+    }
+    .large{
+        height: 20px;
+        padding: 10px;
+    }
+    div{
+        width: 300px;
+        height: 190px;
+        padding: 15px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.527);
+        
+        border-radius: 10px;
+        border: red;
+    }
+    h1{
+        display: block;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 10px;
+        font-weight: lighter;
+    }
+    input{
+        border: none;
+        border-radius: 5px;
+    }
+    p{
+        text-align: left;
+        font-size: large;
+    }
+}
